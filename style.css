@@ -1,0 +1,248 @@
+/*   defoult css   */
+*{
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.t_left {
+    text-align: left;
+}
+.t_center {
+    text-align: center;
+}
+.t_end {
+    text-align: end;
+}
+.clrar_fix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container {
+    width: 1080px;
+    margin: auto;
+}
+
+
+/*   header css    */
+
+
+.header {
+    background-color: #3dc4a3;
+    line-height: 89px;
+}
+.header_logo {
+    width: 30%;
+    float: left;
+}
+.header_logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 35px;
+}
+.header_logo img {
+    width: 200px;
+    height: auto;
+}
+.header_menu {
+    width: 70%;
+    float: right;
+}
+.header_menu ul  {
+    margin-right: 35px;
+}
+.header_menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+.header_menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ddd;
+    padding: 0px 10px;
+    font-size: 17px;
+ 
+}
+
+
+
+/*     banner_section css     */
+
+
+
+.banner_section {
+    background: url(https://i.ibb.co/9hmMVpk/header-bg01.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 195px 0;
+}
+.banner_section h2 {
+    color: #fff;
+    font-size: 45px;
+}
+.banner_section p {
+    color: #ddd;
+    padding: 15px 0;
+}
+.banner_section a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ddd;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+
+/*    service_section css    */
+
+
+.service_section {
+    padding: 60px 0;
+    border-bottom: 2px solid #34c09c;
+}
+.service_section h2 {
+    margin: 12px 0;
+    font-size: 30px;
+}
+.service_section p {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.service_section .service_item {
+    width: 25%;
+    float: left;
+    padding: 35px;
+    box-sizing: border-box;
+
+}
+.service_blog.t_center {
+    margin-top: 35px;
+}
+.service_section .service_item i {
+    color: #34c09c;
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+.service_section .service_item h4 {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+
+/*     about_section css    */
+
+
+.about_section {
+    padding-top: 50px;
+}
+.about_section h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.about_section p {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.about_img {
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	padding: 32px;
+}
+.about_content {
+    float: right;
+    width: 50%;
+    margin-top: 65px;
+}
+.about_item {
+    margin-bottom: 15px;
+}
+.about_item h4 {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.about_item p {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+/*    contact_section css    */
+
+
+.contact_section {
+    padding-top: 50px;
+    background-color: #f6f6f6;
+}
+.contact_section h2 {
+    margin-bottom: 20px;
+}
+.contact_section p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.contact_info {
+    padding: 60px 0;
+}
+.contact_item {
+    width: 300px;
+    display: inline-block;
+}
+.ci2 {
+    position: relative;
+    top: -25px;
+}
+.contact_item i {
+    color: #34c09c;
+    margin-bottom: 10px;
+}
+.contact_item p {
+    margin-bottom: 8px;
+}
+
+
+
+/*     social_section css */
+
+
+.social_section {
+    background-color: #34c09c;
+    text-align: center;
+}
+.social_section ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social_section ul li a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-size: 20px;
+}
+
+
+
+/*    footer_section css    */
+
+
+.footer_section {
+	background-color: #222222;
+	color: #767676;
+	width:auto;
+	height: 87px;
+}
+.footer_section p {
+	margin-bottom: 0;
+	font-size: 17px;
+	
+	padding: 14px;
+}
